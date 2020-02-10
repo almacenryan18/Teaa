@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>WebTech2G</title>
+	<link rel="stylesheet" type="text/css" href="CSS/stylehome.css">
+	<link rel="stylesheet" type="text/css" href="CSS/stylemodal.css">
+	<link rel="stylesheet" type="text/css" href="CSS/lightbox.css">
+	<script src="JS/lightbox.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="https://kit.fontawesome.com/1a6c5293cb.js" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })      
+      </script>
+<script>
+$(funtion)(){
+$('a[href*="#"]')
+  .not('[href="#"]')
+  .click(function() {
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) 
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000;
+            return false;
+          } 
+          };
+        };
+</script>
+
+</head>
+<body>
+		<header>
+			<nav>
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#adjust">FrappyTea</a></li>
+                                    <li><a href="#adjusting">About ME</a></li>
+                              </ul>
+                        </div>
+			</nav>
+		</header>
+			<div class="digi">
+				
+			</div>
+      <div class="left"></div>
+      <div class="right"></div>
+      <div class="gallery">
+      	<div class="adjust" id="adjust">
+      	<h1><br><br>MY PRODUCTS</h1></div>
+
+        <a href="IMAGES/tea1.jpg" data-lightbox="Gallery" data-title="Machetea"> <img src="IMAGES/tea1.jpg"></a>
+		  <a href="IMAGES/tea2.jpg" data-lightbox="Gallery" data-title="Coffee Frappe"> <img src="IMAGES/tea2.jpg"></a>
+		  <a href="IMAGES/tea3.jpg" data-lightbox="Gallery" data-title="Cappuccino Frappe"> <img src="IMAGES/tea3.jpg"></a>
+		  <a href="IMAGES/tea4.jpg" data-lightbox="Gallery" data-title="CarnationEvap with Frappe"> <img src="IMAGES/tea4.jpg"></a>
+        <a href="IMAGES/tea5.jpg" data-lightbox="Gallery" data-title="Brown Coffee Frappe"><img src="IMAGES/tea5.jpg"></a>
+        <a href="IMAGES/tea6.jpg" data-lightbox="Gallery" data-title="Ice & Frappe shake"><img src="IMAGES/tea6.jpg"></a>
+      	<a href="IMAGES/tea7.jpg" data-lightbox="Gallery" data-title="DarkIce & Frappe shake"><img src="IMAGES/tea7.jpg"></a>
+      	<a href="IMAGES/tea88.png" data-lightbox="Gallery" data-title="Coffee with ice"><img src="IMAGES/tea88.png"></a>
+      
+	
+</div>
+	<div class="about" id="adjusting">
+	</div>
+      	<br>
+<div class="team-section">
+    <div class="inner-width">
+      <h1>about me</h1> 	
+  </div></div>
+	<div class ="a">
+		<img src="IMAGES/Snapchat-200032284.jpg">
+		</div>
+		<div class="b">
+			<br><br>
+			<h1> Hello, I'm Ryan! I'm the owner of FrappyTea which has high ratings. I make sure to strickly observe and practice cleanliness and consistency to my products. Providing you rich and tasty frappes and coolers is my priority. Expect an excellent service only at FrappyTea!</h1><br><br>
+			<h2> YOU CAN CONTACT ME AT: </h2>
+			<a href=""></a><img src="IMAGES/0d3b7af79ad2b163f759eed5937cd764.png"></a>
+			<a href=""><img src="IMAGES/Twitterbird.png"></a>
+			<a href=""><img src="IMAGES/instagram-logos-png-images-free-download-2.png"></a>
+			<a href=""><img src="IMAGES/linkedin-symbol-logo-22.png"></a>
+		</div>
+		<div class="c"> 
+		<h1> MY HOBBIES </h1>
+		<h2> Sports: </h2>
+		<img src="IMAGES/1035px-Basketball_Clipart.svg.png">
+			<img src="IMAGES/unnamed.png">
+			<img src="IMAGES/9914_png-volleyball.png">
+			<img src="IMAGES/purepng.com-bowlingbowlingsportsrollsbowling-ball-1701528101004t5ypk.png">
+		<h2> GAMING: </h2>
+			<img src="IMAGES/league-of-legends-png-league-of-legends-logo-transparent-png-900.png">
+			<img src="IMAGES/4676949-cs-go-logo-counter-strike-global-offensive-logos-png-e-vetor-cs-go-png-3500_1453_preview.png">
+			<img src="IMAGES/pubg-png-playerunknown-battlegrounds-windows-central-0.png">
+			<img src="IMAGES/6738935_preview.png">
+		<h2> EDITING: </h2>
+			<img src="IMAGES/1200px-Adobe_Photoshop_CC_icon.svg.png">
+			<img src="IMAGES/adobe-animate-logo-png-transparent.png">
+			<img src="IMAGES/after-effects-cs6-logo-EC9F3A3961-seeklogo.com.png">
+			<img src="IMAGES/download.png">
+			
+	</div>
+	
+</body>
+</html>
