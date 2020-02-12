@@ -148,7 +148,7 @@ nav ul li a:hover{
 }
 .a{
 	width: 33.33%;
-	height: 100vh;
+	height: 75vh;
 	float: left;
 	background-color: #807e7e;
 }
@@ -158,7 +158,7 @@ nav ul li a:hover{
 }
 .b{
 	width: 33.33%;
-	height: 100vh;
+	height: 75vh;
 	float: left;
 	text-align: center;
 	background-color: #807e7e;
@@ -175,11 +175,10 @@ nav ul li a:hover{
 	width: calc (100%/4);
 	height: 100px;
 	padding: 20px;
-	
 }
 .c{
 	width: 33.33%;
-	height: 100vh;
+	height: 75vh;
 	float: right;
 	background-color: #807e7e;
 }
@@ -195,4 +194,73 @@ nav ul li a:hover{
 	margin-left: 30px;
 	width: 100px;
 	height: 100px;
+}
+.downa{
+	width: 50%;
+	min-height: 60vh;
+	float: left;
+	background-color: #807e7e;
+	text-align: left;
+	text-indent: 200px;
+}
+.downa h1{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 60px;
+	border-bottom: 4px solid;
+	padding-bottom: 10px;
+}
+.downa h2{
+	font-size: 35px;
+	margin-left: 90px;
+}
+.downb h2{
+	font-size: 35px;
+}
+.downb h1{
+	font-size: 60px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	border-bottom: 4px solid;
+		padding-bottom: 10px;
+}
+.downb{
+	width: 50%;
+	min-height: 60vh;
+	float: right;
+	background-color: #807e7e;
+	text-indent: 50px;
+}
+.hob{
+	float: left;
+	width: 100%;
+	min-height: 110vh;
+	background-color: #807e7e;
+	text-indent: 200px;
+	
+	}
+.hob h1{
+	font-size: 60px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	border-bottom: 4px solid;
+	padding-bottom: 10px;
+}
+.hob h2{
+	text-align: center;
+	font-size: 60px;
+}
+.hob img{
+	width: 100px;
+	height: 100px;
+	margin-left: 13%;
+}
+.fo{
+	width: 100%;
+	height: 100px;;
+	float: left;
+	background-color: #807e7e; 
+}
+.ack{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	float: left;
 }
